@@ -33,32 +33,43 @@ header {
   padding: 0px 5%;
 }
 
-
 button:hover {
-    background-color: darkorange;
+  background-color: darkorange;
 }
 
 .list-items {
-    list-style: none;
+  list-style: none;
 }
 
 .list-items li {
-    display: inline-block;
-    padding: 0px 15px;
-    margin: 45px 0px;
+  display: inline-block;
+  padding: 0px 15px;
+  margin: 45px 0px;
 }
 
 .list-items li a {
-    transition: all 0.3s ease 0s;
-    color: rgba(255, 255, 255, 1);
+  transition: all 0.3s ease 0s;
+  color: rgba(255, 255, 255, 1);
+}
+
+.list-items li a::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: orange;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+.list-items li a:hover::after {
+  width: 100%;
 }
 
 .list-items li a:hover {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
-/* 
-.list-items li {
-} */
+
 button {
   border: none;
   border-radius: 14px;
