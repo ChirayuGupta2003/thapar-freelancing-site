@@ -23,14 +23,15 @@ button {
 .logo {
   width: 10%;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius:7em ;
+
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px 5%;
+  align-items: center ;
+  padding: 0% 5%;
 }
 
 button:hover {
@@ -39,12 +40,17 @@ button:hover {
 
 .list-items {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-items: center;
+
 }
 
 .list-items li {
-  display: inline-block;
+  /* display: inline-block; */
   padding: 0px 15px;
-  margin: 45px 0px;
+  margin: 15% 0%;
 }
 
 .list-items li a {
@@ -78,3 +84,5 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
+
+
