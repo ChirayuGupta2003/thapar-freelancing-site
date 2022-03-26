@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: #fff;
     color: #777;
@@ -16,6 +20,7 @@ h1 {
     margin-bottom: 20px;
 }
 h2 {
+    margin: 0;
     font-weight: 300;
     color: #444;
     font-size: 52px;
@@ -124,10 +129,11 @@ table {
 #hero-image {
     height: 680px;
     padding-top: 1px;
-    background: #e8eced url('cesar-couto-eIDXdlfelVE-unsplash (1).jpg') no-repeat center;
+    background: #e8eced url('https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80') no-repeat center;
 }
 #hero-image h2 {
-    margin: 180px 0 40px 0;
+    /* margin: 180px 0 40px 0; */
+    font-size: 30px;
 }
 .button-1 {
     display: block;
@@ -273,7 +279,7 @@ flex-wrap: wrap;
 margin: 3rem;
 }
 .vid {
-    width: 1000px;
+    width: 900px;
 }
 .mag{
     margin: 3rem;
@@ -302,4 +308,10 @@ margin: 3rem;
 .dam
 {
     transform: translateY(-130px);
+}
+.abcde{
+    transform: translateY(-90px);
+} 
+.test {
+    border: none;
 }
