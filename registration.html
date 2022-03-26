@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      *{
+        margin: 0;
+        padding : 0;
+
+      }
+      body{
+        /* background-image:url("https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/5625/2018/8/1/LM-Thapar-School-of-Management-Thapar-University-Patiala-Campus2.jpg"); */
+        background-image:url("https://unsplash.it/1920/1080");
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: 2000px 1500px; */
+        /* background-size: cover; */
+        font-family:sans-serif;
+        margin-top:40px ;
+
+      }
+      .regform{
+        width:800px;
+        background-color:rgb(0,0,0,0.6);
+        margin:auto;
+        color:#FFFFFF;
+        padding:10px 0px 10px 0px;
+        text-align:center;
+        border-radius:!5px 15px 0px 0px ;
+      }
+      .main{
+            background-color:rgb(0,0,0,0.5);
+            width:800px;
+            margin:auto;
+      }
+      form{
+          padding:10px;
+      }
+      #name{
+         width: 100% ;
+         height:100px;
+      }
+
+      .name{
+          margin-left:25px;
+          margin-top:30px;
+          width:125px;
+          color:white;
+          font-size:24px;
+          font-weight:700;
+      }
+      .firstname{
+        position:relative;
+        left:200px ;
+        top:-37px;
+        line-height:40px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+
+      }
+
+      .lastname{
+               position:relative;
+               left:217px;
+               top:-37px;
+               line-height:40px;
+               border-radius:6px;
+               padding:0 22px;
+               font-size:16px;
+               color:#555;
+      }
+
+      .firstlabel{
+        position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:14px;
+        left:0;
+        top:-5px;
+      }
+
+      .lastlabel{
+        position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:14px;
+        left:15px;
+        top:-5px;
+      }
+
+      .company{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:480px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color: #555;
+      }
+      .email{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:480px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color: #555;
+      }
+      .code{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:95px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color: #555;
+      }
+      .number{
+        position:relative;
+        left:200px;
+        top:-37px;
+        line-height:40px;
+        width:262px;
+        border-radius:6px;
+        padding:0 22px;
+        font-size:16px;
+        color: #555;
+      }
+      .area-code{
+        position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:14px;
+        left:70px;
+        top:-4px;
+      }
+      .phone-number{
+        position:relative;
+        color:#E5E5E5;
+        text-transform:capitalize;
+        font-size:14px;
+        left:-85px;
+        top:-4px;
+      }
+
+      .option{
+        position:relative;
+      left:200px;
+      top:-37px;
+      line-height:40px;
+      width:530px;
+      height:40px;
+      border-radius:6px;
+      padding:0 22px;
+      font-size:16px;
+      color: #555;
+      outline:none;
+      overflow:hidden;
+      }
+
+      .option option{
+          font-size:20px;
+        }
+      #coustomer{
+                margin-left:25px;
+                color:white;
+                font-size:18px;
+      }
+
+      .radio{
+             display: inline-block;
+             padding-right:70px;
+             font-size:25px;
+             margin-left:25px;
+             margin-top:15px;
+             color:white;
+             }
+      .radio input{
+             width:20px;
+             height:20px;
+             border-radius:50%;
+             cursor:pointer;
+             outline:none;
+
+      }
+      botton{
+             background-color:#3BAF9F;
+             display:block;
+             margin:20px 0px 0px 20px;
+             text-align:center;
+             border-radius:12px;
+             border:2px solid #366473;
+             padding:14px 110px;
+             outline:none;
+             color:white;
+             cursor:pointer;
+             transition:0.25px;
+      }
+
+      botton:hover{
+        transition: all 0.2s ease-in;
+               background-color:#5390F5;
+                     }
+      #student{
+        color:white;
+
+      }
+      body{
+        font-family:  arial .helvetica,sans-serif;
+
+      }
+      *{
+        box-sizing:border-box;
+      }
+      .open-button{
+        background color: ##3BAF9F;
+        border-radius: 9px;
+
+        height: 83px;
+        width: 113px;
+        color:black;
+        padding:16px 20px;
+        border:none ;
+        cursor:pointer;
+        opacity:1.0;
+        position:fixed;
+        bottom:26px;
+        right:28px;
+        width:280;
+
+      }
+      .open-button:hover{
+        transition: all 0.2s ease-in;
+               background-color:#5390F5;
+               text-colo
+
+      }
+      .chat-popup{
+        display: none;
+        position:fixed;
+        bottom:15px;
+        right: 15px;
+        border:3px solid ##3BAF9F;
+        z-index: 9;
+      }
+      .form-container{
+        max-width: 300px;
+        padding: 10px;
+        background: white;
+      }
+      .form-container textarea{
+         width:280px;
+         padding:15px;
+         margin:5px 0 22px 0;
+         border:none;
+         background: #f1f1f1;
+         resize:none;
+         min-height: 200px;
+      }
+      .form-container textarea:focus{
+        background-color: #ddd;
+        outline:none;
+      }
+      .form-container .btn{
+        background-color:#4CAF50;
+        color: #fff;
+        padding:16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        opacity: 0.8;
+      }
+
+    </style>
+  </head>
+  <body>
+    <button class="open-button" onclick="openform()">start chatting</button>
+    <div class="chat-popup" id="myform">
+         <form action="#" class="form-container">
+         <h1>chat popup</h1>
+         <label for="msg"><b>Message</b></label>
+         <textarea placeholder="chat with me..." name="msg" required></textarea>
+         <button type="submit" class="btn">send messages</button>
+         <button type="button" class="btn cancel" onclick="closeform()">close</button>
+         </form>
+       </div>
+       <script type="text/javascript">
+         function openform(){
+           document.getElementById('myform').style.display="block";
+                }
+                function closeform(){
+                  document.getElementById("myform").style.display="none";
+                }
+       </script>
+    <div class="regform"><h1>REGISTRATION FORM</h1></div>
+      <div class="main">
+        <form action="/" method="post">
+
+        <div id="name">
+          <h2 class="name">  Name :</h2>
+          <input class="firstname" type="text" name="first_name" >
+          <label class="firstlabel">first name</label>
+          <input class="lastname" type="text" name="last_name" >
+          <label class="lastlabel">last name</label>
+        </div>
+
+        <h2 class="name">Company</h2>
+        <input class="company" type="text" name="company" >
+
+        <h2 class="name">Email</h2>
+        <input class="email" type="text" name="email" >
+
+        <h2 class="name">Phone</h2>
+        <input class="code" type="text" name="area_code" >
+        <label class="area-code">Area Code</label>
+        <input class="number" type="text" name="phone" >
+        <label class="phone-number">Phone Number</label>
+
+        <h2 class="name">Which Year</h2>
+        <select class="option" name="subject">
+          <option disabled="disabled" selected="selected">---chose year--- </option>
+          <option>year 1</option>
+          <option>year 2</option>
+          <option>year 3</option>
+          <option>year 4</option>
+        </select>
+
+        <h2 id="student">Are you beginner ?</h2>
+
+
+        <label class="radio">
+         <input class="radio-one" type="radio" checked="checked" name="Confirm">
+         <span class="checkmark">Yes</span>
+         <!-- YES -->
+       </label>
+
+       <label class="radio">
+        <input class="radio-one" type="radio" checked="unchecked" name="Confirm">
+        <span class="checkmark">No</span>
+        <!-- NO -->
+       </label>
+
+       <botton type="submit">Register</botton>
+       </form>
+      </div>
+    </div>
+  </body>
+</html>
