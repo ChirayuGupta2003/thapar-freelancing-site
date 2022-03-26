@@ -1,0 +1,58 @@
+body{
+    display: block;
+    font-family: 'ProximaNova', sans-serif;
+    background: #f7f7f7;
+    align-items: center;
+    justify-items: center;
+    
+}
+.container{
+    display: block;
+    font-size: 1em;
+    text-align: center;
+    box-sizing: border-box;
+}
+h3{
+    font-family: 'Sharp Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: inherit;
+}
+a{
+    font-family: 'Sharp Sans', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;  
+}
+.row-container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* float: left; */
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* align-items: center; */
+    /* border: 1px solid #2d2d2d; */
+}
+.live-chat{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:15px;
+}
+.social-media{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:15px;
+}
+.text{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:15px;
+}
+.email{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:15px;
+}
